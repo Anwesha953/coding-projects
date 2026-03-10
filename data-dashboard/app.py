@@ -28,14 +28,14 @@ if uploaded_file:
 
     st.subheader("Create Custom Chart")
 
-x_column = st.selectbox("Select X axis", df.columns)
-y_column = st.selectbox("Select Y axis", df.columns)
+    x_column = st.selectbox("Select X axis", df.columns)
+    y_column = st.selectbox("Select Y axis", df.columns)
 
-if st.button("Generate Chart"):
-    
-    fig, ax = plt.subplots()
-    ax.bar(df[x_column], df[y_column])
-    
-    plt.xticks(rotation=45)
+    if st.button("Generate Chart"):
+        
+        fig, ax = plt.subplots()
+        ax.bar(df[x_column], df[y_column])
+        
+        plt.xticks(rotation=45)
 
-    st.pyplot(fig)
+        st.pyplot(fig)
