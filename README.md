@@ -66,7 +66,7 @@ A Machine Learning web app that predicts whether a message is **Spam** or **Not 
 * Predicts if it is **Spam** or **Not Spam**
 
 ### 🔗 Live App
-
+https://anwesha953-coding-projects-spam-classifierapp-0j65sq.streamlit.app/
 
 
 ---
