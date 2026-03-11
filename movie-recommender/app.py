@@ -1,37 +1,35 @@
 import streamlit as st
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.title("Movie Recommendation System")
+st.title("🎬 Movie Recommendation System")
 
 movies = pd.read_csv("movies.csv")
 
-tfidf = TfidfVectorizer(stop_words="english")
-tfidf_matrix = tfidf.fit_transform(movies["genre"])
+st.write("### Movie Dataset Preview")
+st.dataframe(movies.head())
 
-cosine_sim = cosine_similarity(tfidf_matrix)
+# Convert genre text to numerical vectors
+vectorizer = CountVectorizer()
+genre_matrix = vectorizer.fit_transform(movies["genre"])
+
+# Calculate similarity
+similarity = cosine_similarity(genre_matrix)
 
 movie_list = movies["title"].values
 
-selected_movie = st.selectbox("Select a movie", movie_list)
-
-def recommend(movie):
-
-    index = movies[movies["title"] == movie].index[0]
-    scores = list(enumerate(cosine_sim[index]))
-
-    scores = sorted(scores, key=lambda x: x[1], reverse=True)
-
-    scores = scores[1:6]
-
-    movie_indices = [i[0] for i in scores]
-
-    return movies["title"].iloc[movie_indices]
+selected_movie = st.selectbox("Choose a movie", movie_list)
 
 if st.button("Recommend Movies"):
 
-    recommendations = recommend(selected_movie)
+    movie_index = movies[movies["title"] == selected_movie].index[0]
 
-    for movie in recommendations:
-        st.write(movie)
+    distances = similarity[movie_index]
+
+    movie_indices = distances.argsort()[-6:-1][::-1]
+
+    st.write("### Recommended Movies")
+
+    for i in movie_indices:
+        st.write(movies.iloc[i]["title"])
