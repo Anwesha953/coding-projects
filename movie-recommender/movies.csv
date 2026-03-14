@@ -1,110 +1,198 @@
 title,genre
-Avatar,Sci-Fi Action
-Titanic,Romance Sci-Fi
-The Dark Knight,Animation Romance
-Inception,Drama Adventure
-Interstellar,Sci-Fi Thriller
-The Matrix,Animation Comedy
-The Matrix Reloaded,Animation Thriller
-The Matrix Revolutions,Drama Thriller
-The Avengers,Action Drama
-Avengers: Age of Ultron,Drama Crime
-Avengers: Infinity War,Comedy Crime
-Avengers: Endgame,Animation Sci-Fi
-Iron Man,Fantasy Crime
-Iron Man 2,Thriller Drama
-Iron Man 3,Crime Adventure
-Thor,Action Thriller
-Thor: Ragnarok,Drama Action
-Thor: Love and Thunder,Crime Romance
-Captain America: The First Avenger,Comedy Sci-Fi
-Captain America: Civil War,Action Romance
-Doctor Strange,Sci-Fi Fantasy
-Doctor Strange in the Multiverse of Madness,Adventure Action
-Guardians of the Galaxy,Animation Thriller
-Guardians of the Galaxy Vol.2,Animation Adventure
-Black Panther,Action Fantasy
-Black Panther: Wakanda Forever,Comedy Drama
-Spider-Man,Thriller Drama
-Spider-Man 2,Comedy Crime
-Spider-Man 3,Comedy Thriller
-Spider-Man: Homecoming,Action Animation
-Spider-Man: Far From Home,Comedy Crime
-Spider-Man: No Way Home,Thriller Action
-Man of Steel,Animation Adventure
-Batman v Superman,Thriller Romance
-Justice League,Animation Adventure
-Wonder Woman,Adventure Fantasy
-Wonder Woman 1984,Crime Romance
-The Flash,Animation Action
-Aquaman,Drama Crime
-Shazam,Drama Adventure
-The Dark Knight Rises,Action Romance
-Batman Begins,Crime Drama
-Star Wars,Animation Action
-The Empire Strikes Back,Comedy Action
-Return of the Jedi,Comedy Animation
-The Force Awakens,Comedy Drama
-The Last Jedi,Drama Sci-Fi
-The Rise of Skywalker,Sci-Fi Fantasy
-Rogue One,Sci-Fi Crime
-Solo,Romance Thriller
-Jurassic Park,Action Thriller
-The Lost World: Jurassic Park,Animation Drama
-Jurassic World,Sci-Fi Crime
-Jurassic World Fallen Kingdom,Romance Sci-Fi
-Jurassic World Dominion,Crime Thriller
-The Lion King,Thriller Drama
-Frozen,Adventure Fantasy
-Frozen II,Fantasy Comedy
-Moana,Adventure Thriller
-Encanto,Drama Thriller
-Coco,Adventure Thriller
-Toy Story,Comedy Sci-Fi
-Toy Story 2,Drama Adventure
-Toy Story 3,Sci-Fi Drama
-Toy Story 4,Drama Romance
-Finding Nemo,Fantasy Drama
-Finding Dory,Crime Comedy
-Inside Out,Sci-Fi Action
-Up,Drama Animation
-Cars,Comedy Sci-Fi
-Cars 2,Crime Comedy
-Cars 3,Sci-Fi Thriller
-Ratatouille,Fantasy Drama
-The Incredibles,Drama Thriller
-The Incredibles 2,Crime Fantasy
-Monsters Inc,Drama Animation
-Monsters University,Sci-Fi Fantasy
-Harry Potter and the Sorcerer's Stone,Action Fantasy
-Harry Potter and the Chamber of Secrets,Crime Drama
-Harry Potter and the Prisoner of Azkaban,Thriller Action
-Harry Potter and the Goblet of Fire,Thriller Action
-Harry Potter and the Order of the Phoenix,Thriller Comedy
-Harry Potter and the Half Blood Prince,Animation Crime
-Harry Potter and the Deathly Hallows Part 1,Comedy Action
-Harry Potter and the Deathly Hallows Part 2,Drama Action
-The Lord of the Rings: The Fellowship of the Ring,Animation Adventure
-The Lord of the Rings: The Two Towers,Thriller Romance
-The Lord of the Rings: The Return of the King,Animation Action
-The Hobbit: An Unexpected Journey,Romance Action
-The Hobbit: The Desolation of Smaug,Romance Adventure
-The Hobbit: The Battle of the Five Armies,Comedy Drama
-Dune,Adventure Action
-Dune Part Two,Animation Romance
-Blade Runner,Animation Crime
-Blade Runner 2049,Animation Thriller
-The Martian,Comedy Drama
-Gravity,Crime Romance
-Arrival,Thriller Crime
-Gladiator,Romance Action
-The Prestige,Thriller Drama
-The Departed,Thriller Crime
-The Social Network,Comedy Romance
-Fight Club,Crime Sci-Fi
-Forrest Gump,Animation Crime
-The Shawshank Redemption,Romance Comedy
-Pulp Fiction,Animation Fantasy
-Se7en,Action Sci-Fi
-The Godfather,Thriller Action
-The Godfather Part II,Animation Crime
+Avatar,Adventure Drama
+Titanic,Thriller Comedy
+The Dark Knight,Thriller Action
+Inception,Fantasy Adventure
+Interstellar,Animation Crime
+The Matrix,Drama Adventure
+The Matrix Reloaded,Drama Sci-Fi
+The Matrix Revolutions,Animation Crime
+The Avengers,Drama Adventure
+Avengers: Age of Ultron,Adventure Fantasy
+Avengers: Infinity War,Crime Thriller
+Avengers: Endgame,Action Crime
+Iron Man,Adventure Crime
+Iron Man 2,Crime Action
+Iron Man 3,Animation Adventure
+Thor,Action Animation
+Thor: Ragnarok,Romance Action
+Thor: Love and Thunder,Thriller Fantasy
+Captain America: The First Avenger,Sci-Fi Fantasy
+Captain America: Civil War,Romance Crime
+Doctor Strange,Fantasy Action
+Doctor Strange in the Multiverse of Madness,Crime Fantasy
+Guardians of the Galaxy,Fantasy Romance
+Guardians of the Galaxy Vol. 2,Comedy Drama
+Black Panther,Sci-Fi Romance
+Black Panther: Wakanda Forever,Crime Fantasy
+Spider-Man,Thriller Romance
+Spider-Man 2,Sci-Fi Adventure
+Spider-Man 3,Action Crime
+Spider-Man: Homecoming,Thriller Adventure
+Spider-Man: Far From Home,Comedy Animation
+Spider-Man: No Way Home,Adventure Drama
+Man of Steel,Drama Crime
+Batman v Superman,Adventure Romance
+Justice League,Drama Romance
+Wonder Woman,Sci-Fi Animation
+Wonder Woman 1984,Crime Fantasy
+The Flash,Action Drama
+Aquaman,Sci-Fi Crime
+Shazam,Fantasy Sci-Fi
+The Dark Knight Rises,Drama Animation
+Batman Begins,Romance Fantasy
+Star Wars,Thriller Sci-Fi
+The Empire Strikes Back,Crime Adventure
+Return of the Jedi,Fantasy Sci-Fi
+The Force Awakens,Crime Romance
+The Last Jedi,Action Romance
+The Rise of Skywalker,Sci-Fi Drama
+Rogue One,Animation Sci-Fi
+Solo,Drama Action
+Jurassic Park,Thriller Animation
+The Lost World: Jurassic Park,Crime Action
+Jurassic World,Action Sci-Fi
+Jurassic World: Fallen Kingdom,Romance Fantasy
+Jurassic World Dominion,Animation Adventure
+The Lion King,Adventure Romance
+Frozen,Comedy Adventure
+Frozen II,Fantasy Action
+Moana,Fantasy Drama
+Encanto,Fantasy Comedy
+Coco,Sci-Fi Drama
+Toy Story,Drama Sci-Fi
+Toy Story 2,Action Romance
+Toy Story 3,Adventure Animation
+Toy Story 4,Animation Crime
+Finding Nemo,Action Adventure
+Finding Dory,Thriller Crime
+Inside Out,Action Drama
+Up,Thriller Adventure
+Cars,Animation Romance
+Cars 2,Action Comedy
+Cars 3,Fantasy Action
+Ratatouille,Romance Thriller
+The Incredibles,Sci-Fi Crime
+The Incredibles 2,Crime Comedy
+"Monsters, Inc.",Fantasy Thriller
+Monsters University,Crime Action
+Harry Potter and the Sorcerer's Stone,Sci-Fi Comedy
+Harry Potter and the Chamber of Secrets,Drama Thriller
+Harry Potter and the Prisoner of Azkaban,Action Sci-Fi
+Harry Potter and the Goblet of Fire,Comedy Drama
+Harry Potter and the Order of the Phoenix,Action Crime
+Harry Potter and the Half-Blood Prince,Fantasy Comedy
+Harry Potter and the Deathly Hallows Part 1,Sci-Fi Action
+Harry Potter and the Deathly Hallows Part 2,Sci-Fi Crime
+The Lord of the Rings: The Fellowship of the Ring,Thriller Action
+The Lord of the Rings: The Two Towers,Action Thriller
+The Lord of the Rings: The Return of the King,Adventure Crime
+The Hobbit: An Unexpected Journey,Fantasy Action
+The Hobbit: The Desolation of Smaug,Action Animation
+The Hobbit: The Battle of the Five Armies,Comedy Crime
+Dune,Sci-Fi Comedy
+Dune: Part Two,Crime Animation
+Blade Runner,Comedy Romance
+Blade Runner 2049,Adventure Sci-Fi
+The Martian,Thriller Comedy
+Gravity,Comedy Action
+Arrival,Animation Thriller
+Gladiator,Romance Crime
+The Prestige,Comedy Fantasy
+The Departed,Thriller Romance
+The Social Network,Crime Adventure
+Fight Club,Sci-Fi Action
+Forrest Gump,Sci-Fi Action
+The Shawshank Redemption,Drama Comedy
+Pulp Fiction,Drama Thriller
+Se7en,Comedy Sci-Fi
+The Godfather,Drama Sci-Fi
+The Godfather Part II,Sci-Fi Crime
+Mad Max: Fury Road,Crime Thriller
+John Wick,Adventure Animation
+John Wick: Chapter 2,Sci-Fi Romance
+John Wick: Chapter 3 – Parabellum,Action Animation
+Mission: Impossible,Action Animation
+Mission: Impossible 2,Fantasy Adventure
+Mission: Impossible III,Action Comedy
+Mission: Impossible – Ghost Protocol,Fantasy Thriller
+Mission: Impossible – Rogue Nation,Romance Fantasy
+Mission: Impossible – Fallout,Adventure Crime
+Top Gun,Sci-Fi Fantasy
+Top Gun: Maverick,Adventure Drama
+Pacific Rim,Crime Fantasy
+Transformers,Thriller Action
+Transformers: Revenge of the Fallen,Romance Animation
+Transformers: Dark of the Moon,Adventure Fantasy
+Transformers: Age of Extinction,Drama Comedy
+Transformers: The Last Knight,Drama Adventure
+Pirates of the Caribbean: The Curse of the Black Pearl,Crime Action
+Pirates of the Caribbean: Dead Man's Chest,Crime Thriller
+Pirates of the Caribbean: At World's End,Action Animation
+Pirates of the Caribbean: On Stranger Tides,Drama Adventure
+Pirates of the Caribbean: Dead Men Tell No Tales,Thriller Drama
+Shrek,Thriller Crime
+Shrek 2,Thriller Drama
+Shrek the Third,Animation Action
+Kung Fu Panda,Thriller Action
+Kung Fu Panda 2,Adventure Action
+Kung Fu Panda 3,Animation Sci-Fi
+How to Train Your Dragon,Comedy Romance
+How to Train Your Dragon 2,Drama Fantasy
+How to Train Your Dragon: The Hidden World,Comedy Sci-Fi
+Minions,Thriller Sci-Fi
+Despicable Me,Thriller Drama
+Despicable Me 2,Sci-Fi Fantasy
+Despicable Me 3,Adventure Drama
+Sing,Fantasy Action
+Sing 2,Fantasy Sci-Fi
+Zootopia,Fantasy Adventure
+Big Hero 6,Crime Sci-Fi
+WALL-E,Comedy Fantasy
+Soul,Drama Action
+Luca,Sci-Fi Adventure
+Turning Red,Comedy Adventure
+Elemental,Sci-Fi Adventure
+The Batman,Fantasy Thriller
+Joker,Sci-Fi Fantasy
+Suicide Squad,Adventure Animation
+The Suicide Squad,Fantasy Adventure
+Deadpool,Thriller Romance
+Deadpool 2,Drama Comedy
+Logan,Action Crime
+X-Men,Thriller Fantasy
+X2,Comedy Sci-Fi
+X-Men: The Last Stand,Action Romance
+X-Men: First Class,Comedy Romance
+Days of Future Past,Animation Drama
+The Wolverine,Romance Animation
+Venom,Fantasy Animation
+Venom: Let There Be Carnage,Crime Thriller
+Morbius,Fantasy Drama
+Fantastic Four,Fantasy Crime
+Fantastic Four: Rise of the Silver Surfer,Drama Sci-Fi
+Doctor Dolittle,Animation Crime
+Jumanji,Adventure Fantasy
+Jumanji: Welcome to the Jungle,Fantasy Romance
+Jumanji: The Next Level,Crime Romance
+Ready Player One,Adventure Romance
+Edge of Tomorrow,Sci-Fi Animation
+Elysium,Fantasy Sci-Fi
+I Am Legend,Romance Thriller
+Oblivion,Fantasy Adventure
+Minority Report,Drama Animation
+War of the Worlds,Animation Action
+A Quiet Place,Crime Romance
+A Quiet Place Part II,Romance Comedy
+Bird Box,Romance Crime
+World War Z,Action Animation
+"I, Robot",Drama Action
+Ex Machina,Comedy Adventure
+Her,Animation Action
+Moon,Animation Romance
+Passengers,Sci-Fi Romance
+No Time to Die,Comedy Thriller
+Skyfall,Drama Adventure
+Spectre,Adventure Drama
+Casino Royale,Adventure Thriller
+Quantum of Solace,Romance Fantasy
