@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import os
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -8,10 +9,16 @@ st.set_page_config(page_title="Movie Recommender", page_icon="🎬", layout="cen
 st.title("🎬 Movie Recommendation System")
 st.write("Select a movie and get 5 similar movie recommendations based on genre.")
 
-# Load dataset
-movies = pd.read_csv("movies.csv")
+# Get the folder where app.py is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Show small preview (optional but good for demo)
+# Build the correct full path to movies.csv
+csv_path = os.path.join(BASE_DIR, "movies.csv")
+
+# Load dataset safely
+movies = pd.read_csv(csv_path)
+
+# Show small preview
 with st.expander("Preview Dataset"):
     st.dataframe(movies.head(10))
 
